@@ -4,9 +4,9 @@ const oracledb = require('oracledb');
 
 // Configuración de la conexión a la base de datos Oracle
 const dbConfig = {
-  user: 'DIP',
-  password: 'luis12345',
-  connectString: 'localhost:1521/XE',
+  user: 'DIP',             // Reemplaza por el nombre de usuario de tu base de datos
+  password: 'luis12345',   // Reemplaza por la contraseña de tu base de datos
+  connectString: 'localhost:1521/XE', // Reemplaza por la cadena de conexión de tu base de datos
 };
 
 function adjustToColombiaTimeZone(date) {
@@ -38,28 +38,6 @@ async function insertCommitToDb(commitId, author, date, log, repoUuid, commitPat
   }
 }
 
-async function insertCommitsb(ver, sf, mess) {
-  const connection = await oracledb.getConnection(dbConfig);
-  console.log('Insertando commit en la base de datos...');
-  try {
-    
-    const sql = `INSERT INTO DIP.VERSIONES (sfversion, version, message) VALUES (:sfversion, :version, :message)`;
-    await connection.execute(sql, {
-      version: ver,
-      sfversion: sf,
-      message: mess
-
-      
-    });
-    await connection.commit();
-    console.log('Commit insertado correctamente en la base de datos.');
-  } catch (err) {
-    console.error(`Error al insertar el commit en la base de datos: ${err.message}`);
-  } finally {
-    await connection.close();
-  }
-}
-
 if (require.main === module) {
   const [_, __, repo, txn] = process.argv;
   console.log(`Obteniendo detalles del commit en el repositorio: ${repo}, transacción: ${txn}`);
@@ -70,30 +48,7 @@ if (require.main === module) {
   const repoUuid = execSync(`svnlook uuid ${repo}`).toString().trim();
   const commitPath = execSync(`svnlook dirs-changed -t ${txn} ${repo}`).toString().trim();
   const changedFiles = execSync(`svnlook changed -t ${txn} ${repo}`).toString().trim();
-
-  const logLines = log.split('\n');
-  const values = {
-    version: "",
-    sf: "",
-    message: ""
-  };
-
-  logLines.forEach(line => {
-    const [field, value] = line.split(':').map(item => item.trim());
-    if (field && value) {
-      const normalizedField = field.toLowerCase();
-      if (normalizedField in values) {
-        values[normalizedField] = value;
-      }
-    }
-  });
-
-  if (!values.version || !values.sf || !values.message) {
-    console.error('Mensaje de commit no válido. No se permite el commit.');
-    process.exit(1);
-  }
-  
-  insertCommitToDb(commitId, author, date, log, repoUuid, commitPath, changedFiles);
-  insertCommitsb(values.version, values.sf, values.message);
+  const numero = parseInt(commitId);
+  const commit_idR = numero + 1;
+  insertCommitToDb(commit_idR, author, date, log, repoUuid, commitPath, changedFiles);
 }
-
