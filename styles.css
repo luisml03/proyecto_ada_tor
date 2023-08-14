@@ -1,0 +1,135 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('land.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper{
+  position: relative;
+  width: 500px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+ 
+}
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 99;
+}
+.form-datos{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+label{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 22px;
+
+}
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.versio {
+  font-size: 2em;
+  color: #FFFFFF;
+  user-select: none;
+}
+
+h3{
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: gray;
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+.btn{
+
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  text-align: center;
+  
+}
+
+.input_mess{
+  height: 100px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.input-s{
+  width: 300px;
+  margin-left: 75px;
+}
+
+.input-v{
+  width: 300px;
+  margin-left: 22px;
+}
+
+footer{
+  margin-top: 300px;
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
