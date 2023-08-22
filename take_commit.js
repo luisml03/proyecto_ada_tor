@@ -4,9 +4,9 @@ const oracledb = require('oracledb');
 
 // Configuración de la conexión a la base de datos Oracle
 const dbConfig = {
-  user: 'DIP',             // Reemplaza por el nombre de usuario de tu base de datos
-  password: 'luis12345',   // Reemplaza por la contraseña de tu base de datos
-  connectString: 'localhost:1521/XE', // Reemplaza por la cadena de conexión de tu base de datos
+  user: '',             // Reemplaza por el nombre de usuario de tu base de datos
+  password: '',   // Reemplaza por la contraseña de tu base de datos
+  connectString: '', // Reemplaza por la cadena de conexión de tu base de datos
 };
 
 function adjustToColombiaTimeZone(date) {
