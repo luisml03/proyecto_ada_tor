@@ -15,6 +15,6 @@ Este documento es el manual de usuario de instalación del aplicativo para manej
 
 
 - Tener instalado Node js en caso de no tenerlo instalarlo, dar click en la imagen de arriba, donde esta el logo.
-- Desargar el codigo del repositorio github [![N|Solid](https://tse1.mm.bing.net/th?id=OIP.NIDbXqvT7zXPNJyqRMUXHgHaHa&pid=Api&P=0&h=180)](https://github.com/luisml03/proyecto_ada_tor)
+- Desargar el codigo del repositorio github [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/github.jpg)](https://github.com/luisml03/proyecto_ada_tor)
 - Tener instalado el tortoisseSVN
 - Tener instalado por lo menos el Oracle Instant Client basic x64, dar click en la imagen de oracle de arriba para la descarga
