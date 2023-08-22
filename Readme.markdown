@@ -11,6 +11,6 @@
 ## Requisitos
 
 - Tener instalado Node js en caso de no tenerlo instalarlo, dar click en la imagen de arriba, donde esta el logo.
-- Desargar el codigo del repositorio Github [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/github.jpg)](https://github.com/luisml03/proyecto_ada_tor)
+- Descargar el codigo del repositorio Github [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/github.jpg)](https://github.com/luisml03/proyecto_ada_tor)
 - Tener instalado el tortoisseSVN
 - Tener instalado por lo menos el Oracle Instant Client basic x64, dar click en la imagen de oracle de arriba para la descarga
