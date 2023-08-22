@@ -1,7 +1,7 @@
 # Proyecto de versionamiento
 ## _Tecnologias utilizadas_
 
-[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://tse4.mm.bing.net/th?id=OIP.Q4TZgRkntERysGJFuJIbnwHaEK&pid=Api&P=0&h=180)](https://nodejs.org/en/download)
+[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/html.jpg)](https://nodejs.org/en/download)
 
 
 
