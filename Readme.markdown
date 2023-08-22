@@ -5,6 +5,11 @@
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+  <a href= "https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"></a>
+ ![Static Badge](https://img.shields.io/badge/Design_by-luisml03-blue)
+ ![Static Badge](https://img.shields.io/badge/Version-%201.0%20-%20green)
+ <a href="https://github.com/luisml03/proyecto_ada_tor/main/Readme.markdown"><img src="https://github.com/facebook/docusaurus/actions/workflows/tests.yml/badge.svg" alt="GitHub Actions status"></a>
+
 
 > Este documento es el manual de usuario de instalación del aplicativo para manejo de versiones, tener en cuenta que para muchos pasos es necesario el acompañamiento  del desarrollador.
 
