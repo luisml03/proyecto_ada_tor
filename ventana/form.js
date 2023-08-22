@@ -18,7 +18,7 @@ formA.addEventListener("submit", async function(event){
   };
 
   try {
-    const response = await fetch('http://localhost:3000/insertData', {
+    const response = await fetch('http://servidor/insertData', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
