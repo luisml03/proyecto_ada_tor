@@ -16,6 +16,8 @@
 ## Requisitos
 
 - Tener instalado Node js en caso de no tenerlo instalarlo, dar click en la imagen de arriba, donde esta el logo.
-- Descargar el codigo del repositorio Github [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/github.jpg)](https://github.com/luisml03/proyecto_ada_tor)
-- Tener instalado el tortoisseSVN
-- Tener instalado por lo menos el Oracle Instant Client basic x64, dar click en la imagen de oracle de arriba para la descarga
+- Descargar el codigo del repositorio Github [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/github.jpg)](https://github.com/luisml03/proyecto_ada_tor).
+- Tener instalado el tortoisseSVN.
+- Tener instalado por lo menos el Oracle Instant Client basic x64, dar click en la imagen de oracle de arriba para la descarga.
+- Conocer las credenciales de la base de datos a conectar.
+- Tener conocimientos basicos sobre los hooks y comandos del svn.
