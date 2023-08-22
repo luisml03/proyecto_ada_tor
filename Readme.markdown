@@ -1,7 +1,7 @@
 # Proyecto de versionamiento
 ## _Tecnologias utilizadas_
 
-[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/html.jpg)](https://nodejs.org/en/download)  [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/npm.jpg)](https://www.npmjs.com/) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/oracle.jpg)](https://download.oracle.com/otn_software/nt/instantclient/2110000/instantclient-basic-windows.x64-21.10.0.0.0dbru.zip) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/torto.png)](https://tortoisesvn.net/downloads.html) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/electron.jpg)](https://electronjs.org/es/) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/subversion.png)](https://subversion.apache.org/)
+[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/html.jpg)](https://nodejs.org/en/download)  [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/npm.jpg)](https://www.npmjs.com/) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/oracle.jpg)](https://download.oracle.com/otn_software/nt/instantclient/2110000/instantclient-basic-windows.x64-21.10.0.0.0dbru.zip) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/torto.png)](https://tortoisesvn.net/downloads.html) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/electron.jpg)](https://electronjs.org/es/) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/subversion.png)](https://subversion.apache.org/) [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/code.jfif)](https://code.visualstudio.com/download)
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
@@ -9,6 +9,7 @@
  ![Static Badge](https://img.shields.io/badge/Design_by-luisml03-blue)
  ![Static Badge](https://img.shields.io/badge/Version-%201.0%20-%20green)
  <a href="https://github.com/luisml03/proyecto_ada_tor/main/Readme.markdown"><img src="https://github.com/facebook/docusaurus/actions/workflows/tests.yml/badge.svg" alt="GitHub Actions status"></a>
+
 
 
 > Este documento es el manual de usuario de instalación del aplicativo para manejo de versiones, tener en cuenta que para muchos pasos es necesario el acompañamiento  del desarrollador.
