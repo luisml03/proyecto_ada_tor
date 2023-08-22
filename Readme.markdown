@@ -1,11 +1,7 @@
 # Proyecto de versionamiento
 ## _Tecnologias utilizadas_
 
-[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/html.jpg)](https://nodejs.org/en/download)
-
-
-
-[![N|Solid](https://tse1.mm.bing.net/th?id=OIP.zt9sC86iS-83W2LfmHIZMwHaHa&pid=Api&P=0&h=180)](https://nodejs.org/en/download)
+[![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/node.jpg)](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi)    [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/html.jpg)](https://nodejs.org/en/download)  [![N|Solid](https://github.com/luisml03/proyecto_ada_tor/blob/main/assets/npm.jpg)](https://nodejs.org/en/download)
 
 [![N|Solid](https://tse3.mm.bing.net/th?id=OIP.jdQ0-zCqys8HUsVr1-EE6AHaEK&pid=Api&P=0&h=180)](https://download.oracle.com/otn_software/nt/instantclient/2110000/instantclient-basic-windows.x64-21.10.0.0.0dbru.zip)
 
