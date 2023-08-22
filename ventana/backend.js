@@ -25,9 +25,9 @@ app.post('/insertData', async (req, res) => {
     
     try {
         const connection = await oracledb.getConnection({
-          user: 'talento',             // Reemplaza por el nombre de usuario de tu base de datos
-          password: 'talento',   // Reemplaza por la contraseña de tu base de datos
-          connectString: '10.1.140.101:1521/db106'
+          user: '',             // Reemplaza por el nombre de usuario de tu base de datos
+          password: '',   // Reemplaza por la contraseña de tu base de datos
+          connectString: ''
         });
 insertDataSent = true
         const sql = `INSERT INTO TALENTO.VERSIONES (commit_id, sfversion, version, message) VALUES (:commit_id, :sfversion, :version, :message)`;
